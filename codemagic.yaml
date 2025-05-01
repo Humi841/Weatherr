@@ -10,7 +10,7 @@ workflows:
       - chmod +x node_modules/.bin/vite
       - npm run build
       - npm install -D typescript
-      - npm install @capacitor/cli @capacitor/core @capacitor/android --legacy-peer-deps
+      - chmod +x android/gradlew
       - cd android && ./gradlew assembleDebug
     artifacts:
       - android/app/build/outputs/**/*.apk
