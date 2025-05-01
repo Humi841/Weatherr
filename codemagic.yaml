@@ -9,6 +9,7 @@ workflows:
       - npm install
       - chmod +x node_modules/.bin/vite
       - npm run build
+      - npm install -D typescript
       - npm install @capacitor/cli @capacitor/core @capacitor/android --legacy-peer-deps
       - npx cap init WeatherMate com.valentia.weatherapp --web-dir=build
       - npx cap add android
