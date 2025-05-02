@@ -1,6 +1,6 @@
 {
   "appId": "com.valentia.weatherapp",
   "appName": "WeatherMate",
-  "webDir": "build",
+  "webDir": "dist",
   "bundledWebRuntime": false
 }
